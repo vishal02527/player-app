@@ -1,0 +1,71 @@
+/* public/styles.css */
+
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f4f4f4;
+    margin: 0;
+    padding: 0;
+  }
+  
+  .container {
+    max-width: 600px;
+    margin: 100px auto;
+    box-sizing: border-box;
+    padding: 40px 200px;
+    background-color: #fff;
+    border: 1px solid #ddd;
+    border-radius: 5px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+    text-align: center;
+  }
+  .playerImg{
+    width: 200px;
+    height: 220px;
+  }
+  
+  a {
+    text-decoration: none;
+    color: #007BFF;
+  }
+  
+  a:hover {
+    text-decoration: underline;
+  }
+  
+  h1 {
+    font-size: 24px;
+    margin: 10px 0;
+  }
+  
+  p {
+    font-size: 16px;
+  }
+  p span{
+    font-size: 14px;
+    color: rgb(4, 181, 4);
+    font-weight: bold;
+    text-transform: uppercase;
+  }
+  
+  img {
+    max-width: 100%;
+    height: auto;
+    margin-top: 10px;
+  }
+  .btnDiv{
+    display: flex;
+    margin-top: 20px;
+    justify-content: space-between;
+  }
+  
+  .next-button, .previous-button {
+    display: block;
+    padding: 10px 20px;
+    color: #fff;
+    background-color: #007BFF;
+    border: none;
+    border-radius: 5px;
+    text-align: center;
+    cursor: pointer;
+  }
+  
